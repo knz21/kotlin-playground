@@ -1,4 +1,4 @@
-package com.knz21
+package com.knz21.snippets
 
 object MatchEmptyString {
 

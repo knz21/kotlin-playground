@@ -1,8 +1,8 @@
 package com.knz21.snippets
 
-object FirstFromEmptyList {
+object FirstFromEmptyList : Snippet {
 
-    operator fun invoke() {
+    override operator fun invoke() {
         try {
             emptyList<String>().first()
         } catch (e: Exception) {

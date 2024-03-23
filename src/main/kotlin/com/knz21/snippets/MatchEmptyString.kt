@@ -1,8 +1,8 @@
 package com.knz21.snippets
 
-object MatchEmptyString {
+object MatchEmptyString : Snippet {
 
-    operator fun invoke() {
+    override operator fun invoke() {
         println("Empty string is matched: ${"string".contains("")}")
     }
 }

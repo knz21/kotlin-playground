@@ -1,5 +1,6 @@
 package com.knz21
 
+import com.knz21.snippets.EmptyAnyAll
 import com.knz21.snippets.FirstFromEmptyList
 import com.knz21.snippets.HexString
 import com.knz21.snippets.MatchEmptyString
@@ -10,7 +11,8 @@ fun main() {
         MatchEmptyString,
         FirstFromEmptyList,
         RandomEnum,
-        HexString
+        HexString,
+        EmptyAnyAll
     ).forEach {
         println("\n----- ${it::class.simpleName} -----")
         it()

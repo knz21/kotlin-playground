@@ -5,6 +5,7 @@ import com.knz21.snippets.FirstFromEmptyList
 import com.knz21.snippets.HexString
 import com.knz21.snippets.MatchEmptyString
 import com.knz21.snippets.RandomEnum
+import com.knz21.snippets.TakeAndDrop
 
 fun main() {
     listOf(
@@ -12,7 +13,8 @@ fun main() {
         FirstFromEmptyList,
         RandomEnum,
         HexString,
-        EmptyAnyAll
+        EmptyAnyAll,
+        TakeAndDrop,
     ).forEach {
         println("\n----- ${it::class.simpleName} -----")
         it()
